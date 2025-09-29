@@ -34,8 +34,7 @@ export default async function Home() {
         />
         {/* --- 프로필 섹션 --- */}
         <section className="w-full text-center py-20 bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white">
-          <h1 className="text-5xl font-extrabold">{typedGeneralData.name}</h1>
-          <p className="text-lg mt-4 text-gray-300">A Passionate Developer</p>
+          <h1 className="text-5xl font-bold">{typedGeneralData.name}</h1>
           <div className="mt-8 flex justify-center gap-4">
             <a
               href={typedGeneralData.links.github}
